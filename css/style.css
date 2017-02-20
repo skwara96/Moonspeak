@@ -1,0 +1,22 @@
+body {
+    background: #efeee9;
+}
+
+
+/* CLEARFIX METHOD */
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: white;
+}
